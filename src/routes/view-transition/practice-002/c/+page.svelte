@@ -4,15 +4,18 @@
 	import { goto } from '$app/navigation';
 
 	const pageName = $page.url.pathname.split('/').at(-1);
+	const viewTransitionName = $page.url.pathname.split('/').at(-2);
 
 	onMount(() => {
-		setTimeout(() => {goto('d')}, 1000);
-	})
+		setTimeout(() => {
+			goto('d');
+		}, 1000);
+	});
 </script>
 <h2>
 	pageName = {pageName}
 </h2>
-<div id="practice-001">
+<div id={viewTransitionName}>
 	c is for Cat <br>
 	c is for Car <br>
 	c is for Cow <br>
@@ -41,8 +44,8 @@
 </div>
 
 <style>
-	div {
-		border: 5px solid #181818;
-		border-radius: 5px;
-	}
+    div {
+        border: 5px solid #181818;
+        border-radius: 5px;
+    }
 </style>

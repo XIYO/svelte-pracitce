@@ -7,7 +7,10 @@
 			<a href="/view-transition">View transition</a>
 			<ul>
 				<li>
-					<a href="/view-transition/practice-001">View transition 1</a>
+					<a href="/view-transition/practice-001">practice-001</a>
+				</li>
+				<li>
+					<a href="/view-transition/practice-002">practice-002</a>
 				</li>
 			</ul>
 		</li>
