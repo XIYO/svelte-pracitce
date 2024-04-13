@@ -12,6 +12,9 @@
 				<li>
 					<a href="/view-transition/practice-002">practice-002</a>
 				</li>
+				<li>
+					<a href="/view-transition/practice-003">practice-003</a>
+				</li>
 			</ul>
 		</li>
 	</ul>

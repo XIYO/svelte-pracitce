@@ -1,0 +1,22 @@
+<script>
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
+
+	const pageName = $page.url.pathname.split('/').at(-1);
+	const viewTransitionName =	$page.url.pathname.split('/').at(-2);
+
+	// onMount(() => {
+	// 	setTimeout(() => {goto('c')}, 3000);
+	// })
+</script>
+<h1>
+	pageName = {pageName}
+</h1>
+<div id={viewTransitionName}>
+	b is for Banana <br>
+	b is for Ball <br>
+	b is for Bat <br>
+	b is for Bear <br>
+	b is for Bird
+</div>
