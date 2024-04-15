@@ -6,9 +6,10 @@
 	const pageName = $page.url.pathname.split('/').at(-1);
 	const viewTransitionName =	$page.url.pathname.split('/').at(-2);
 
-	// onMount(() => {
-	// 	setTimeout(() => {goto('c')}, 3000);
-	// })
+	onMount(() => {
+		const time = setTimeout(() => {goto('c');}, 2000);
+		return () => clearTimeout(time);
+	});
 </script>
 <h1>
 	pageName = {pageName}

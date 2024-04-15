@@ -4,6 +4,9 @@
 			<a href="/">Home</a>
 		</li>
 		<li>
+			<a href="/basic">Basic</a>
+		</li>
+		<li>
 			<a href="/view-transition">View transition</a>
 			<ul>
 				<li>
@@ -14,6 +17,12 @@
 				</li>
 				<li>
 					<a href="/view-transition/practice-003">practice-003</a>
+				</li>
+				<li>
+					<a href="/view-transition/practice-004">practice-004</a>
+				</li>
+				<li>
+					<a href="/view-transition/practice-005">practice-005</a>
 				</li>
 			</ul>
 		</li>

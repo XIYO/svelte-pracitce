@@ -6,7 +6,13 @@
 	const pageName = $page.url.pathname.split('/').at(-1);
 
 	onMount(() => {
-		setTimeout(() => {goto('c')}, 1000);
+		console.log('onMount');
+		const time = setTimeout(() => {goto('c')}, 1000);
+
+		return () => {
+			console.log('clearing timeout');
+			clearTimeout(time);
+		}
 	})
 </script>
 <h2>

@@ -1,12 +1,12 @@
 <ul>
 	<li>
-		<a href="a">A</a>
+		<a href="a">a</a>
 	</li>
 	<li>
-		<a href="b">B</a>
+		<a href="b">b</a>
 	</li>
 	<li>
-		<a href="c">C</a>
+		<a href="c">c</a>
 	</li>
 </ul>
 

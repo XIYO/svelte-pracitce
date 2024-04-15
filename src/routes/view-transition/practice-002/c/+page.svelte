@@ -7,10 +7,14 @@
 	const viewTransitionName = $page.url.pathname.split('/').at(-2);
 
 	onMount(() => {
-		setTimeout(() => {
-			goto('d');
-		}, 1000);
-	});
+		console.log('onMount');
+		const time = setTimeout(() => {goto('d')}, 1000);
+
+		return () => {
+			console.log('clearing timeout');
+			clearTimeout(time);
+		}
+	})
 </script>
 <h2>
 	pageName = {pageName}
