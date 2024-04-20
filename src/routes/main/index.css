@@ -4,8 +4,8 @@ html {
 
 [style*="--view-transition-name"] {
     view-transition-name: var(--view-transition-name);
-    background-color: lightblue;
-    background-clip: padding-box;
+    /*background-color: lightblue;*/
+    /*background-clip: padding-box;*/
 }
 
 ::view-transition-group(practice-004) {

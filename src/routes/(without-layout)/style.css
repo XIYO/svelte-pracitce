@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-color: lemonchiffon;
+
+    border: 0.5rem solid;
+    border-radius: 2rem;
+
+    padding: 1rem;
+    margin: 1rem;
+
+    &::before {
+        display: block;
+
+        content: ".container::before";
+
+        background-color: lightblue;
+
+        border: 0.5rem solid;
+        border-radius: 1rem;
+
+        padding: 1rem;
+        margin-block-end: 1rem;
+    }
+
+    &::after {
+        display: block;
+
+        content: ".container::after\a 컨테이너의 크기는 rem을 사용합니다."; /* 줄바꿈 이스케이프 시퀀스 \a 추가 */
+        white-space: pre; /* 줄 바꿈을 유지 */
+
+        background-color: lightblue;
+
+        border: 0.5rem solid;
+        border-radius: 1rem;
+
+        padding: 1rem;
+        margin-block-start: 1rem;
+    }
+}
