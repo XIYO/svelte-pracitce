@@ -30,13 +30,13 @@
         font-size: 2rem;
 
         background-color: palegreen;
-        border-radius: 2rem;
+        border-radius: 1rem;
     }
 
     #half-rem {
         font-size: 0.5rem;
 
         background-color: salmon;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
     }
 </style>

@@ -23,5 +23,7 @@
 
     .slot {
         background-color: deepskyblue;
+				display: inline-block;
+				width: 10rem;
     }
 </style>
